@@ -14,3 +14,4 @@ gem 'jquery-rails'
 
 gem 'devise'
 gem 'test-unit', '~> 3.0'
+gem 'simple_form'
