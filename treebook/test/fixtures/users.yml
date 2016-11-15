@@ -4,3 +4,11 @@ jason:
   email: 'jasonseifer@example.com'
   profile_name: 'jasonseifer'
   encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
+
+rares:
+  first_name: 'Rares'
+  last_name: 'Dragus'
+  email: 'raresdragus@example.com'
+  profile_name: 'raresdragus'
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
+
