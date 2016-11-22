@@ -1,0 +1,12 @@
+<%= @invoice.customer.name %>
+<%= @invoice.customer.address.street %>
+<%= @invoice.customer.address.city %>,
+<%= @invoice.customer.address.state %>
+<%= @invoice.customer.address.zip_code %>
+
+<!-- follow the Law of Demeter -->
+<%= @invoice.customer_name %>
+<%= @invoice.customer_street %>
+<%= @invoice.customer_city %>,
+<%= @invoice.customer_state %>
+<%= @invoice.customer_zip_code %>
